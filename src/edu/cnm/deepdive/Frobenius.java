@@ -16,4 +16,16 @@ public class Frobenius {
 
   }
 
+  /**
+   * return true if the stated value cna be formed as a sum of non-negative integral multiples of
+   * the elements of packSizes.
+   *
+   * @param value target/goal number.
+   * @param packSizes array of distinct pack sizes, in descending order.
+   * @return true if value is a McNugget number using the specific pack sizes, false otherwise.
+   */
+  public static boolean isGeneralMcNugget(int value, int[] packSizes) {
+    return false; //TODO Complete implementation for extra credit.
+  }
+
 }
